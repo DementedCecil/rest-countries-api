@@ -1,0 +1,12 @@
+.search {
+    background-color: var(--bgElementColor);
+    margin: 2rem 0;
+    padding: 0.5rem 1.5rem;
+    border-radius: var(--borderRadius);
+}
+
+.search::placeholder {
+    color: var(--colorNeutral900);
+    opacity: 1;
+    font-weight: var(--fontWeightLight);
+}

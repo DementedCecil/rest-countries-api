@@ -1,0 +1,8 @@
+.card {
+  background-color: var(--bgElementColor);
+  border-radius: var(--borderRadius);
+  margin: 2rem;
+  padding: 1.5rem;
+  box-shadow: 0 0 5px 10px var(--boxShadow);
+  max-width: max-content;
+}
