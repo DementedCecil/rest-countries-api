@@ -29,7 +29,6 @@ export default function DisplayArea({countryData = [], detailed}) {
 
     const handleFilter = (e) => {
         setFilter(e.target.value);
-        console.log(e.target.value);
     };
 
     useEffect(() => {
@@ -38,10 +37,10 @@ export default function DisplayArea({countryData = [], detailed}) {
 
     if (detailed) {
         return (
-            <div className={styles.displayArea}>
-                <Link href={'/'} className='btn btn-primary'>Back</Link>
-                {data?.map(country => (
-                    <Card key={country.name.common} data={country} detailed={detailed} />
+            <div className={styles.displayArea} data-type='detailed'>
+                <Link href={'/'} className={'btn ' + styles.btnBack}>Back</Link>
+                {data?.map((country, index) => (
+                    <Card key={index} data={country} detailed={detailed} />
                 ))}
             </div>
         )
@@ -53,9 +52,9 @@ export default function DisplayArea({countryData = [], detailed}) {
                 <Search searchValue={search} onChange={(e) => handleSearch(e)} />
                 <Filter onChange={(e) => handleFilter(e)} />
             </div>
-            {filtered?.map(country => (
-                <Link key={country.name.common} href={`/${country.name.common}`}>
-                    <Card key={country.name.common} data={country} detailed={detailed} />
+            {filtered?.map((country, index) => (
+                <Link key={index} href={`/${country.name.common}`}>
+                    <Card data={country} detailed={detailed} />
                 </Link>
             ))}
         </div>

@@ -1,13 +1,38 @@
 .displayArea {
+  margin-inline: 2rem;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 
 .inputs {
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   margin: 1rem;
   gap: 1rem;
+}
+
+.btnBack {
+  margin-block: 2rem;
+  align-self: flex-start;
+}
+
+@media screen and (min-width: 600px) {
+  .displayArea {
+    margin-inline: 3rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .displayArea[data-type='detailed'] {
+    flex-direction: column;
+  }
+  
+  .inputs {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }

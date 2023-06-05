@@ -6,14 +6,21 @@
     border-radius: var(--borderRadius);
     margin: 1rem;
     box-shadow: 0 0 5px 10px var(--boxShadow);
-    max-width: max-content;
-    min-width: 18rem;
 }
 
-.card .flag {
+.cardDetail {
+    background-color: var(--bgColor);
+}
+
+.flag {
     border-radius: var(--borderRadius) var(--borderRadius) 0 0;
     object-fit: cover;
     box-shadow: var(--boxShadow);
+}
+
+.flagDetail {
+    object-fit: contain;
+    box-shadow: none;
 }
 
 .card .text {
@@ -26,4 +33,26 @@
 
 .card p {
     line-height: 1.8;
+}
+
+@media screen and (min-width: 850px) {
+    .cardDetail {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 5rem;
+    }
+
+    .textDetail {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+    }
+
+    .flagDetail {
+        height: auto;
+        width: 65%;
+    }
 }

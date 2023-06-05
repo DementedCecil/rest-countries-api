@@ -1,0 +1,1 @@
+// Need to use local storage to setup a toggle on the body for 'themeSwitcher' class

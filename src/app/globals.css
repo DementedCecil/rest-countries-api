@@ -19,7 +19,7 @@
     --bgColor: var(--colorNeutral800);
     --bgElementColor: var(--colorNeutral900);
     --textColor: var(--colorNeutral100);
-    --placeholder: var(var(--colorNeutral500));
+    --placeholder: var(--colorNeutral500);
 
     --fontSizeSmall: 14px;
     --fontSizeMedium: 16px;
@@ -38,11 +38,25 @@
     --bgColor: var(--colorNeutral200);
     --bgElementColor: var(--colorNeutral300);
     --textColor: var(--colorNeutral900);
-
+    --placeholder: var(--colorNeutral700);
     --boxShadow: 0 3px 10px 5px var(--colorNeutral150);
   }
   
 }
+
+
+.themeSwitcher {
+    --bgColor: var(--colorNeutral200);
+    --bgElementColor: var(--colorNeutral300);
+    --textColor: var(--colorNeutral900);
+    --placeholder: var(--colorNeutral700);
+    --boxShadow: 0 3px 10px 5px var(--colorNeutral150);
+}
+
+
+
+
+
 
 @media (prefers-color-scheme: dark) {
   html {
@@ -58,6 +72,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: var(--fontSizeSmall);
+    color: var(--textColor);
 }
 
 
@@ -65,8 +81,7 @@ body {
 h1 { font-size: 3rem; }
 h2 { font-size: 2rem; }
 h3 { font-size: 1rem; font-weight: var(--fontWeightHeavy); }
-p { font-size: var(--fontSizeMedium); font-weight: var(--fontWeightLight); }
-
+p, span { font-weight: var(--fontWeightLight); }
 img, picture, video, canvas, svg {
     max-width: 100%;
 }
@@ -86,10 +101,21 @@ button, a {
     background-color: inherit;
     color: inherit;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .btn {
   padding: 0.5rem 1rem;
   border-radius: var(--borderRadius);
   box-shadow: var(--boxShadow);
+  background-color: var(--bgElementColor);
+}
+
+.align-bottom {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  margin-right: 0.5rem;
 }
