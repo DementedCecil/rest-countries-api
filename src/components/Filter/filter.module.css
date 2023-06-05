@@ -1,0 +1,7 @@
+.filter {
+    background-color: var(--bgElementColor);
+    border-radius: var(--borderRadius);
+    max-width: fit-content;
+    padding: 1.5rem;
+    box-shadow: var(--boxShadow);
+}

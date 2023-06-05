@@ -1,6 +1,8 @@
 .nav {
-    display: flex;
-    background-color: var(--bgElementColor);
-    padding: 2rem 1rem;
-    justify-content: space-between;
+  width: 100%;
+  display: flex;
+  background-color: var(--bgElementColor);
+  padding: 2rem 1rem;
+  justify-content: space-between;
+  box-shadow: var(--boxShadow);
 }

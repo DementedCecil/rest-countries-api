@@ -19,6 +19,7 @@
     --bgColor: var(--colorNeutral800);
     --bgElementColor: var(--colorNeutral900);
     --textColor: var(--colorNeutral100);
+    --placeholder: var(var(--colorNeutral500));
 
     --fontSizeSmall: 14px;
     --fontSizeMedium: 16px;
@@ -27,7 +28,7 @@
     --fontWeightMedium: 600;
     --fontWeightHeavy: 800;
 
-    --boxShadow: 0 0 5px 10px var(--colorNeutral150);
+    --boxShadow: 0 3px 10px 5px var(--colorNeutral700);
     --borderRadius: 0.5rem;
 }
 
@@ -38,7 +39,7 @@
     --bgElementColor: var(--colorNeutral300);
     --textColor: var(--colorNeutral900);
 
-    --boxShadow: 0 0 5px 10px var(var(--colorNeutral150));
+    --boxShadow: 0 3px 10px 5px var(--colorNeutral150);
   }
   
 }
@@ -50,12 +51,16 @@
 }
 
 body {
-    /* font-family: 'Nunito Sans', sans-serif; */
     font-weight: var(--fontWeightMedium);
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
     background-color: var(--bgColor);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+
 
 h1 { font-size: 3rem; }
 h2 { font-size: 2rem; }
@@ -81,4 +86,10 @@ button, a {
     background-color: inherit;
     color: inherit;
     text-decoration: none;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  border-radius: var(--borderRadius);
+  box-shadow: var(--boxShadow);
 }
