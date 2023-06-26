@@ -45,7 +45,7 @@
 }
 
 
-.themeSwitcher {
+[data-theme="dark"] {
     --bgColor: var(--colorNeutral200);
     --bgElementColor: var(--colorNeutral300);
     --textColor: var(--colorNeutral900);
