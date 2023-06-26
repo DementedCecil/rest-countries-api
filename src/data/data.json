@@ -1693,7 +1693,7 @@
     "independent": true
   },
   {
-    "name": "Bolivia (Plurinational State of)",
+    "name": "Bolivia",
     "topLevelDomain": [".bo"],
     "alpha2Code": "BO",
     "alpha3Code": "BOL",
@@ -2243,7 +2243,7 @@
     "independent": false
   },
   {
-    "name": "Virgin Islands (British)",
+    "name": "Virgin Islands",
     "topLevelDomain": [".vg"],
     "alpha2Code": "VG",
     "alpha3Code": "VGB",
@@ -2296,7 +2296,7 @@
     "independent": false
   },
   {
-    "name": "Virgin Islands (U.S.)",
+    "name": "United States Virgin Islands",
     "topLevelDomain": [".vi"],
     "alpha2Code": "VI",
     "alpha3Code": "VIR",
@@ -3618,7 +3618,7 @@
     "independent": true
   },
   {
-    "name": "Congo (Democratic Republic of the)",
+    "name": "Congo",
     "topLevelDomain": [".cd"],
     "alpha2Code": "CD",
     "alpha3Code": "COD",
@@ -5018,7 +5018,7 @@
     "independent": true
   },
   {
-    "name": "Falkland Islands (Malvinas)",
+    "name": "Falkland Islands",
     "topLevelDomain": [".fk"],
     "alpha2Code": "FK",
     "alpha3Code": "FLK",
@@ -7230,7 +7230,7 @@
     "independent": true
   },
   {
-    "name": "Iran (Islamic Republic of)",
+    "name": "Iran",
     "topLevelDomain": [".ir"],
     "alpha2Code": "IR",
     "alpha3Code": "IRN",
@@ -9794,7 +9794,7 @@
     "independent": true
   },
   {
-    "name": "Micronesia (Federated States of)",
+    "name": "Micronesia",
     "topLevelDomain": [".fm"],
     "alpha2Code": "FM",
     "alpha3Code": "FSM",
@@ -9848,7 +9848,7 @@
     "independent": true
   },
   {
-    "name": "Moldova (Republic of)",
+    "name": "Moldova",
     "topLevelDomain": [".md"],
     "alpha2Code": "MD",
     "alpha3Code": "MDA",
@@ -11076,7 +11076,7 @@
     "independent": false
   },
   {
-    "name": "Korea (Democratic People's Republic of)",
+    "name": "North Korea",
     "topLevelDomain": [".kp"],
     "alpha2Code": "KP",
     "alpha3Code": "PRK",
@@ -11467,7 +11467,7 @@
     "independent": true
   },
   {
-    "name": "Palestine, State of",
+    "name": "Palestine",
     "topLevelDomain": [".ps"],
     "alpha2Code": "PS",
     "alpha3Code": "PSE",
@@ -12816,7 +12816,7 @@
     "independent": true
   },
   {
-    "name": "Saint Martin (French part)",
+    "name": "Saint Martin",
     "topLevelDomain": [".mf", ".fr", ".gp"],
     "alpha2Code": "MF",
     "alpha3Code": "MAF",
@@ -13624,7 +13624,7 @@
     "independent": true
   },
   {
-    "name": "Sint Maarten (Dutch part)",
+    "name": "Sint Maarten",
     "topLevelDomain": [".sx"],
     "alpha2Code": "SX",
     "alpha3Code": "SXM",
@@ -14134,7 +14134,7 @@
     "independent": false
   },
   {
-    "name": "Korea (Republic of)",
+    "name": "South Korea",
     "topLevelDomain": [".kr"],
     "alpha2Code": "KR",
     "alpha3Code": "KOR",
@@ -15028,7 +15028,7 @@
     "independent": true
   },
   {
-    "name": "Tanzania, United Republic of",
+    "name": "Tanzania",
     "topLevelDomain": [".tz"],
     "alpha2Code": "TZ",
     "alpha3Code": "TZA",
@@ -16344,7 +16344,7 @@
     "independent": true
   },
   {
-    "name": "Venezuela (Bolivarian Republic of)",
+    "name": "Venezuela",
     "topLevelDomain": [".ve"],
     "alpha2Code": "VE",
     "alpha3Code": "VEN",

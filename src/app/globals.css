@@ -12,6 +12,7 @@
     --colorNeutral200: hsl(207, 26%, 17%);
     --colorNeutral300: hsl(209, 23%, 22%);
     --colorNeutral500: hsl(0, 0%, 52%);
+    --colorNeutral600: hsl(0, 0%, 92%);
     --colorNeutral700: hsl(0, 0%, 96%);
     --colorNeutral800: hsl(0, 0%, 98%);
     --colorNeutral900: hsl(0, 0%, 100%);
@@ -28,7 +29,7 @@
     --fontWeightMedium: 600;
     --fontWeightHeavy: 800;
 
-    --boxShadow: 0 3px 10px 5px var(--colorNeutral700);
+    --boxShadow: 0 3px 5px 2px var(--colorNeutral600);
     --borderRadius: 0.5rem;
 }
 
@@ -53,11 +54,6 @@
     --boxShadow: 0 3px 10px 5px var(--colorNeutral150);
 }
 
-
-
-
-
-
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
@@ -81,6 +77,7 @@ body {
 h1 { font-size: 3rem; }
 h2 { font-size: 2rem; }
 h3 { font-size: 1rem; font-weight: var(--fontWeightHeavy); }
+h4 { font-size: 1.4rem; }
 p, span { font-weight: var(--fontWeightLight); }
 img, picture, video, canvas, svg {
     max-width: 100%;
@@ -105,7 +102,7 @@ button, a {
 }
 
 .btn {
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 2.5rem;
   border-radius: var(--borderRadius);
   box-shadow: var(--boxShadow);
   background-color: var(--bgElementColor);
@@ -118,4 +115,9 @@ button, a {
 
 .icon {
   margin-right: 0.5rem;
+}
+
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
 }
