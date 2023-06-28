@@ -16,7 +16,7 @@ export default function DisplayArea({countryData = [], detailed}) {
     const searchFilter = (array) => {
         return array.filter(
             (country) => 
-                country.name.common.toLowerCase().includes(search) &&
+                country.name.common.toLowerCase().includes(search.toLowerCase()) &&
                 country.region.toLowerCase().includes(filter)
         );
     }
@@ -24,7 +24,7 @@ export default function DisplayArea({countryData = [], detailed}) {
     const filtered = searchFilter(data);
 
     const handleSearch = (e) => {
-        setSearch(e.target.value.toLowerCase());
+        setSearch(e.target.value);
     };
 
     const handleFilter = (e) => {
