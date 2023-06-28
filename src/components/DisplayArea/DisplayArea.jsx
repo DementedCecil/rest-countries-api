@@ -24,7 +24,7 @@ export default function DisplayArea({countryData = [], detailed}) {
     const filtered = searchFilter(data);
 
     const handleSearch = (e) => {
-        setSearch(e.target.value);
+        setSearch(e.target.value.toLowerCase());
     };
 
     const handleFilter = (e) => {
