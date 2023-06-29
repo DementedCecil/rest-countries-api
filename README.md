@@ -60,4 +60,4 @@ Certainly been interesting, and looking forward to trying it in future projects.
 
 ## Author
 
-- Frontend Mentor - [@Demented_Cecil](https://www.frontendmentor.io/profile/DementedCecil)
+- Frontend Mentor - [@DementedCecil](https://www.frontendmentor.io/profile/DementedCecil)
