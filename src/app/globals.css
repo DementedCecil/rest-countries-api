@@ -54,6 +54,14 @@
     --boxShadow: 0 3px 10px 5px var(--colorNeutral150);
 }
 
+[data-theme="light"] {
+  --bgColor: var(--colorNeutral800);
+  --bgElementColor: var(--colorNeutral900);
+  --textColor: var(--colorNeutral100);
+  --placeholder: var(--colorNeutral500);
+  --boxShadow: 0 3px 5px 2px var(--colorNeutral600);
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

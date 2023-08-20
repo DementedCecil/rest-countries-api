@@ -1,6 +1,7 @@
 import './globals.css';
 import { Nunito_Sans } from 'next/font/google';
 import Nav from '@/components/Nav/Nav.jsx';
+import Theme from './theme';
 
 const nunito = Nunito_Sans({
   subsets: ['latin'],
@@ -18,10 +19,12 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body className={nunito.className}>
-        <Nav />
-        {children}
+        <Theme>
+          <Nav />
+          {children}
+        </Theme>
       </body>
     </html>
   )

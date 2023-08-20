@@ -5,7 +5,7 @@ import { useTheme } from 'next-themes';
 import { FaMoon, FaSun } from 'react-icons/fa';
 
 export default function Toggle() {
-    const { theme, setTheme } = useTheme("light");
+    const { theme, setTheme } = useTheme();
     const [ mounted, setMounted ] = useState(false);
 
     useEffect(() => {

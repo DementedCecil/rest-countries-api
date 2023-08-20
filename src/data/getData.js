@@ -1,6 +1,6 @@
 export async function getData() {
     const res = await fetch(`https://restcountries.com/v3.1/all`, {
-        method: "GET"
+        method: "GET", cache: "no-cache"
     });
 
     if (!res.ok) {
